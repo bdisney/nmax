@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'nmax'
+
+limit = ARGV.shift
+
+p 'nmax argument should be present.' and exit unless limit
+p 'nmax argument should be integer number, greater than zero' and exit unless limit.to_i.positive?
+
+results = Nmax.parse(limit.to_i)
+Nmax.display_results(results)
