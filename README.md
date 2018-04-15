@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bdisney/nmax.svg?branch=master)](https://travis-ci.org/bdisney/nmax)
+
 # Nmax
 
 Script for parsing text files or streaming input which returns detected maximum integer numbers.
